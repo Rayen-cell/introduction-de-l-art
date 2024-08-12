@@ -1,0 +1,26 @@
+h1 {
+	color: rgb(252, 252, 252);
+}
+
+.profile-img {
+	width: 300px;
+}
+
+* {
+	font-family: "Times New Roman", Times, serif;
+}
+
+.container {
+	display: flex;
+	background-color: rgb(141, 170, 170);
+	padding: 3%;
+	margin: 5%;
+	text-align: center;
+	color: #fff;
+	border-radius: 10px;
+}
+
+.text-container {
+	padding: 5%;
+	/* margin-right: 5%; */
+}
