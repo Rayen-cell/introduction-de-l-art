@@ -1,26 +1,139 @@
-h1 {
-	color: rgb(252, 252, 252);
+body{
+    font-family: 'Source code pro', Claibri, serif;
+    margin: 0px;
+    padding: 0px;
 }
 
-.profile-img {
-	width: 300px;
+nav{
+    width: 100%;
+    background-color: #424558;
+    background-attachment: fixed;
+    margin: 0px;
 }
 
-* {
-	font-family: "Times New Roman", Times, serif;
+.navbar-brand img{
+    max-height: 100px;
+
 }
 
-.container {
-	display: flex;
-	background-color: rgb(141, 170, 170);
-	padding: 3%;
-	margin: 5%;
-	text-align: center;
-	color: #fff;
-	border-radius: 10px;
+nav ul{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+
 }
 
-.text-container {
-	padding: 5%;
-	/* margin-right: 5%; */
+nav li{
+    list-style-type: none;
+    float:left;
+
+}
+
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 0px 10px;
+    color: #FFF;
+}
+
+.menu-accueil:hover{
+    border-top: 5px solid #e44d26;
+    background-color: RJBa(000, 77, 38, 0.15);
+}
+.menu-presentation:hover{
+    border-top: 5px solid #0070bb;
+    background-color: RGBa(000, 112, 192, 0.15);
+}
+.menu-collection:hover{
+    border-top: 5px solid #f1dc4f;
+    background-color: RGBa(241, 211, 79, 0.15);
+}
+.menu-contact:hover{
+    border-top: 5px solid #BBB;
+    background-color: PGBa(220, 220, 220, 0.15);
+}
+
+nav li:hover a{
+    padding: 15px 30px 20px 30px;
+}
+
+.table{
+    display: table;
+    margin: 20px auto;
+
+}
+
+
+
+header .row {
+  min-height: 70vh;
+  background-image: url(./Image/peinture.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  align-items: center;
+  color: black;
+}
+
+header h1{
+  font-size: "Raleway", sans-serif; 500%;
+  font-style: italic, bold;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  vertical-align: middle;
+}
+
+header h2 {
+  font-family: 'Dancing Script', cursive;
+  line-height: 0%;
+  font-size: 40px;
+  text-align: right;
+  color: white; 
+}
+
+header .slogon {
+  display: flex;
+  min-height: 70vh;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+h3{
+    font-family: cursive sans-serif ;
+    font-size: 300%;
+    font-weight: bolder;
+    text-align: center;
+}
+
+h2{
+    font-family: cursive sans-serif ;
+    font-size: 300%;
+    font-weight: bolder;
+    text-align: center;
+}
+section img{
+    width: 400px;
+    height: 400px;
+    background-position: center
+}
+
+section h1{
+    font-size: 500%;
+    color: #5D5DBF;
+    text-align: center;
+}
+
+p{
+    font-size: large; 200%;
+    font-family: georgia, serif;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+div .clearfix{
+  text-align: center;
+
+}
+
+div .container{
+  text-align: center;
 }

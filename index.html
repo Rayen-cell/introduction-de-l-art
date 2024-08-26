@@ -1,27 +1,145 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8" />
-		<title>WS CSS</title>
-		<link rel="stylesheet" href="./style.css" />
-	</head>
-	<body>
-		<div class="container">
-			<div class="text-container">
-				<h1>Web Developer FullStack JS</h1>
-				<p>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
-					reiciendis labore sapiente reprehenderit laboriosam excepturi, ipsa
-					vitae, nemo temporibus molestias perferendis sunt pariatur nam
-					explicabo quam similique id molestiae accusantium.
-				</p>
-			</div>
+    <html>
+              <!--***********HEAD************-->
+        <head>
+            <title>Meriem Ouni</title>
+            <meta charset="utf-8">
+            <link rel="shortcut icon" href="image/logo.jpg" type="image/x-icon" />
+            <link rel="stylesheet" href="style.css">
+        </head>
 
-			<img
-				src="https://images.unsplash.com/photo-1722516768510-1b0d6da7b0ee?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-				alt="profile"
-				class="profile-img"
-			/>
-		</div>
-	</body>
-</html>
+               <!--**********BODY**********-->
+        <body id="haut">
+
+              <!--**********NAVBAR**********-->
+            <nav>
+                <a class="navbar-brand" href="#haut">
+                            <img src="Image/logo.jpg" alt="Logo site"></a>
+                <div class="table">
+
+                    <ul class="nav">
+                        <li class="menu-accueil"><a href="#accueil">Accueil</a></li>
+                        <li class="menu-presentation"><a href="#presentation">Présentation</a></li>
+                        <li class="menu-collection"><a href="#collection">Collection</a></li>
+                        <li class="menu-contact"><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <!--***************HEADER***************-->
+            <header class="container-fluid">
+                <div class="row">
+
+                    <!--1ere col-->
+                    <div>
+                     <h1>Creative Art</h1>
+                    </div>
+
+                    <!--2eme col-->
+                    <div class="slogon">
+                     <h2>L'art est le grand stimulant de la vie</h2>
+                    </div>
+                </div>
+
+            </header>
+
+                        <!--************Section Presentation**********-->
+
+            <section id="presentation">
+                <div class="container">
+                    <div class="row">
+                       <div><h2 style="color: #5D5DBF" >Présentation</h2></div>
+                       <hr>
+                       <div><h3>Featured Gallery</h3></div>
+
+                        <div class="clearfix" >
+                            <div class="media">
+                                  <img class="align-self-center mr-3" src="image/joker.jpg" alt="Joker"></img>
+                                    <div class="media-body">
+                                        <h5 class="mt-0">Tableau JOKER</h5>
+                                        <p>La peinture est un concept aux multiples usages et significations.
+                                        Le terme peut être utilisé pour évoquer le matériau permettant de recouvrir une surface d’une couche mince,
+                                        l’art de peindre, la toile ou la feuille sur laquelle on peint quelque chose.
+                                         En tant que matériau, la peinture est un liquide qui est appliqué sur une surface en couches minces.
+                                         Une fois sèche, la peinture devient un film (ou une pellicule) solide recouvrant ladite surface.</p>
+                                        <p class="mb-0">Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                                    </div>
+                            </div>
+                                   <img src="image/children.jpg" alt="Children" ></img>
+                                   <p>La peinture à l'huile est une technique qui consiste à mélanger des pigments de couleur à de l'huile pour obtenir une pâte.
+                                    Apparue au Moyen-Âge, elle devient la technique reine des grands maîtres jusqu'au XXe siècle.</p>
+                                   <img style="height: 500px" src="image/film.jpg" alt="film"></img>
+                                   <br>
+                                   <img style="width: 500px" src="image/manel.jpg" alt="Manel"></img>
+                                   <p style="color: black">« La peinture est le métier le plus long et le plus difficile.
+                                   Il lui faut l'érudition comme au compositeur,
+                                   mais il lui faut aussi l'exécution comme au violon. » Eugène Delacroix</p>
+
+                         </div>
+                   </div> 
+                </div>
+
+            </section>
+
+                     <!--****************Section Collection****************-->
+                     <section id="#collection">
+                        <h2 style="color: #5D5DBF">COLLECTION</h2>
+                        <h3>Ma Collections</h3>
+                        <div>
+                            <img src="image/portrait.jpg" alt="portrait">
+                            <img src="image/portrait1.jpg" alt="portrait1">
+                            <img src="image/portrait2.jpg" alt="portrait2">
+                            <img src="image/portrait3.jpg" alt="portrait3">
+                            <img src="image/parent.jpg" alt="parent">
+                            <img src="image/surealisme.jpg" alt="surealisme">
+                            <img src="image/ville1.jpg" alt="ville1">
+                            <img src="image/venise.jpg" alt="venise">
+                            <img src="image/inprogress.jpg" alt="inprogress">
+                        </div>
+                        <div style="text-align: center">
+                            <img src="image/me.jpg" alt="Me">
+                            <p>Meriem OUNI</p>
+                        </div>
+
+                     </section>
+
+                <!--*********************Section Contcter***************-->
+
+                <section id="#contact">
+
+                    <h2 style="color: #5D5DBF">Contact</h2>
+                    <div style="background-color:grey; text-align: center" >
+                    <form>
+                          <label> First Name:</label>
+                          <input type="text" name="firstName" />
+                           <br/>
+                           <label> Last Name:</label>
+                          <input type="text" name="lastName" />
+                           <br/>
+                           <label>Mail: </label>
+                          <input type="text" name="firstName" />
+                          <br/>
+                          <label>Votre Message:</label>
+                          <textarea name="message" cols="30" rows="5"></textarea>
+
+                           <br/>
+                            <button type="submit">Submit</button>
+                    </form>
+                    </div>
+
+                </section>
+
+
+
+                <!--*********************FOOTER***************-->
+
+
+        <footer>
+
+              <a href="https://www.facebook.com/creativeartbymo" target="_blank">Creative Art Page Link</a>
+               <link rel="shortcut icon" href="https://unikeo.net/blog/wp-content/uploads/2014/01/fb.png" type="image/x-icon" />
+
+        </footer>
+
+        </body>
+    </html>
